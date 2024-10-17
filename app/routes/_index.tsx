@@ -2,7 +2,7 @@ import Layout from '~/components/layout/Layout'
 import { errorHandler } from '~/utils/notifications'
 
 // detect mobile device
-const userAgent = typeof window !== 'undefined' && window.navigator?.userAgent
+const userAgent = typeof window !== '' && window.navigator?.userAgent
 if (
   userAgent &&
   // biome-ignore lint/suspicious/noExplicitAny: <explanation>
