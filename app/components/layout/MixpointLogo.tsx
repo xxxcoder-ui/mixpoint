@@ -14,7 +14,7 @@ const MixpointLogo = () => (
       />
     </svg>
     <p className="text-2xl font-medium text-transparent m-0 bg-gradient-to-tr from-blue-400 to-blue-600 bg-clip-text mr-auto self-center">
-      Mixpoint
+      Amazing
     </p>
   </>
 )
